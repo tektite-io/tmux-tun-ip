@@ -4,7 +4,7 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"
 source "$CURRENT_DIR/helpers.sh"
 
 print_vpn_ip() {
-	IFACE_ETH0='eth0'
+	IFACE_ETH0='ens33'
 	IFACE_TUN0='tun0'
 
 	IFACE=$IFACE_TUN0
